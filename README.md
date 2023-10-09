@@ -4,11 +4,17 @@ A simple command line tool to swap out models in the script (ebp) files of FFX/F
 Arguments are below:
 
 -p --path: Path to ebp file or folder containing ebp files.
+
 -s --search: Model number to search. Can be declared multiple times if wanting to search and replace multiple models.
+
 -r --replace: Model number that is replacing. Can be declared multiple times. Number of times this argument is used must match the -s argument.
+
 -b --batch: Indicates that -p is a directory.
+
 -o --overwrite: Overwrite original file(s). Will create a new file if argument is not specified.
+
 -d --delete: Delete file(s) if no matches are found. Useful for only keeping edited scripts.
+
 
 The below example would replace all instances of Tidus' model in the game scripts with Yuna's as well as replace all instances of Auron in the game scripts with Young Auron, while overwriting the original files and deleting any files that do not return any matches:
 
